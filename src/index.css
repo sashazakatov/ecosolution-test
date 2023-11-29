@@ -1,5 +1,38 @@
 @import-normalize;
 
+@font-face {
+  font-family: 'Fira Sans';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/FiraSans-Regular.woff2'),
+    url('./fonts/FiraSans-Regular.woff');
+}
+@font-face {
+  font-family: 'Oswald';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/Oswald-Regular.woff2'),
+    url('./fonts/Oswald-Regular.woff');
+}
+@font-face {
+  font-family: 'Fira Sans';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 300;
+  src: url('./fonts/FiraSans-Light.woff2'),
+    url('./fonts/FiraSans-Light.woff');
+}
+@font-face {
+  font-family: 'Tomorrow';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 700;
+  src: url('./fonts/Oswald-Bold.woff2'),
+    url('./fonts/Oswald-Bold.woff');
+}
+
 body {
   font-family: sans-serif;
   font-size: 25px;
