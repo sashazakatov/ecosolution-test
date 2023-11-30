@@ -1,13 +1,22 @@
 {
   "files": {
-    "main.css": "/ecosolution-test/static/css/main.e6c13ad2.css",
-    "main.js": "/ecosolution-test/static/js/main.d7d0be01.js",
+    "main.css": "/ecosolution-test/static/css/main.4bd8ca16.css",
+    "main.js": "/ecosolution-test/static/js/main.fa042099.js",
+    "static/media/FiraSans-Light.woff2": "/ecosolution-test/static/media/FiraSans-Light.b678a9289fa25477222f.woff2",
+    "static/media/FiraSans-Regular.woff2": "/ecosolution-test/static/media/FiraSans-Regular.b678a9289fa25477222f.woff2",
+    "static/media/FiraSans-Regular.woff": "/ecosolution-test/static/media/FiraSans-Regular.9882832df631b9bb24d1.woff",
+    "static/media/FiraSans-Light.woff": "/ecosolution-test/static/media/FiraSans-Light.f7af47e33cccecd3b156.woff",
+    "static/media/Oswald-Regular.woff2": "/ecosolution-test/static/media/Oswald-Regular.3fc33f6dce0820455e7c.woff2",
+    "static/media/Oswald-Bold.woff2": "/ecosolution-test/static/media/Oswald-Bold.d463406799d22e4ce0a1.woff2",
+    "static/media/Oswald-Bold.woff": "/ecosolution-test/static/media/Oswald-Bold.8c383c65dc0882124d1a.woff",
+    "static/media/Oswald-Regular.woff": "/ecosolution-test/static/media/Oswald-Regular.0850a602c7ea734e69c5.woff",
+    "static/media/sprite.svg": "/ecosolution-test/static/media/sprite.289a14aaf77aa85688f59bad346915a7.svg",
     "index.html": "/ecosolution-test/index.html",
-    "main.e6c13ad2.css.map": "/ecosolution-test/static/css/main.e6c13ad2.css.map",
-    "main.d7d0be01.js.map": "/ecosolution-test/static/js/main.d7d0be01.js.map"
+    "main.4bd8ca16.css.map": "/ecosolution-test/static/css/main.4bd8ca16.css.map",
+    "main.fa042099.js.map": "/ecosolution-test/static/js/main.fa042099.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.d7d0be01.js"
+    "static/css/main.4bd8ca16.css",
+    "static/js/main.fa042099.js"
   ]
 }
