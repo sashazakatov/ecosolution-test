@@ -1,12 +1,11 @@
-import Icons from '../../Icons/sprite.svg';
+import Footer from 'components/Footer';
+import SharedLayout from 'components/SharedLayout';
 
 const App = () => { 
   return (
     <>
-      <div>Привет</div>
-      <svg>
-        <use href={Icons + '#maximize-circle'}></use>
-      </svg>
+      <SharedLayout/>
+      <Footer/>
     </>
   );
 }
