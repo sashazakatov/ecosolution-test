@@ -1,7 +1,9 @@
 @import-normalize;
 
 :root {
-  --myColor: #ff0000;
+  --background-color: #F3F5FA;
+  --main-company-color: #173D33;
+  --secondari-company-color: #97D28B;
 }
 
 @font-face {
