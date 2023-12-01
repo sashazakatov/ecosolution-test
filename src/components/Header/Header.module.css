@@ -4,11 +4,10 @@
 .header__navigation {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
-
-.logo {
-    width: 269;
-    height: 40px;
+.header__logo {
+    padding-right: 11px;
 }
 .burger__menu {
     padding: 11.5px 12px;
@@ -17,5 +16,50 @@
     width: 40px;
     height: 39px;
     text-align: center;
+    background-color: #DCEFD8;
+}
+.header__touch {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 39px;
+    background-color: var(--secondary-company-color);
+    padding: 10px 16px;
+    gap: 12px;
+    border-radius: 25px;
+}
+
+@media screen and (min-width: 768px) {
+    .header__touch {
+        display: flex;
+    }
+}
+
+.header__touch:hover {
+    background-color: var(--first-company-color);
+}
+
+.touch__text {
+    color: var(--first-company-color);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.64px;
+}
+.header__touch:hover .touch__text {
+    color: var(--secondary-company-color);
+}
+
+.touch__icon {
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
+    background-color: var(--first-company-color);
+}
+
+.header__touch:hover .touch__icon {
     background-color: var(--secondary-company-color);
 }

@@ -11,12 +11,13 @@
     border-radius: 50%;
     padding: 8px;
 }
-
+.footer_logo {
+    padding-right: 19px;
+}
 .footer__nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 19px;
 }
 .social_div {
     display: flex;

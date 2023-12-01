@@ -8,14 +8,16 @@ const Footer = () => {
         <footer className={css.footer}>
             <Container>
                 <div className={ css.footer__nav }>
-                    <img width={269} height={40} src={ logo } alt="logo" />
+                    <a href="/">
+                        <img width={269} height={40} src={logo} alt="logo" className={ css.footer_logo } />
+                    </a>
                     <a href="/" className={css.footer__link }>
                         <Icon width={24} height={24} id="arrow-up"/>    
                     </a>
                 </div>
                 <div className={ css.social_div }>
                     <a href="/"><Icon width={24} height={24} id="facebook" /></a>
-                    <a href="/"><Icon width={24} height={24} id="instagram" /></a>    
+                    <a href="/"><Icon width={24} height={24} id="instagram" /></a>
                 </div>
                 <address className={ css.footer__contact }>
                     <ul>
