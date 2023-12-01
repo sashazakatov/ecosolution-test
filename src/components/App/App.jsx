@@ -1,15 +1,13 @@
 import Footer from 'components/Footer';
 import SharedLayout from 'components/SharedLayout';
-import Container from 'components/Container';
+import Header from 'components/Header';
 
 const App = () => { 
   return (
     <>
-      <SharedLayout/>
+      <Header />
+      <SharedLayout />
       <Footer />
-      <Container>
-        <p>sdfasf</p>
-      </Container>
     </>
   );
 }

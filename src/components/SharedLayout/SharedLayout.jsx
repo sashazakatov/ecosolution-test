@@ -2,12 +2,9 @@
 
 const SharedLayout = ({ children }) => { 
     return (
-        <>
-        <header>header</header>
         <main>
             {children}    
-        </main> 
-        </>
+        </main>
     );
 }
 
