@@ -1,0 +1,54 @@
+.hero {
+    margin-top: 146px;
+}
+.hero__title {
+    color: var(--first-company-color);
+    font-family: Oswald;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+.hero__text {
+    color: var(--first-company-color);
+    text-align: justify;
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.64px;
+    margin-top: 24px;
+}
+
+.header__learn_more {
+    display: inline-flex;
+    height: 39px;
+    padding: 4px 4px 4px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    flex-shrink: 0;
+    border: 1px solid var(--secondary-company-color);
+    border-radius: 500px;
+    margin-top: 24px;
+}
+
+.learn_more__text {
+    color: var(--first-company-color);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.64px;
+}
+
+.learn_more__icon {
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    padding: 8px;
+    background-color: var(--secondary-company-color);
+}

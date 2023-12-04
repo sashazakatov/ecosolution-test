@@ -1,9 +1,7 @@
-
-
 const SharedLayout = ({ children }) => { 
     return (
         <main>
-            {children}    
+            { children }
         </main>
     );
 }
