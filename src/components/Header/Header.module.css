@@ -63,3 +63,8 @@
 .header__touch:hover .touch__icon {
     background-color: var(--secondary-company-color);
 }
+
+.header__div {
+    display: flex;
+    gap: 12px;
+}
