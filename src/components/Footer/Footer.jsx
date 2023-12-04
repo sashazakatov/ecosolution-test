@@ -20,7 +20,7 @@ const Footer = () => {
                     <a href="/"><Icon width={24} height={24} id="instagram" /></a>
                 </div>
                 <address className={ css.footer__contact }>
-                    <ul>
+                    <ul className={ css.footer__list }>
                         <li className={ css.footer_item }><span className={ css.footer__text }>79005, Ukraine, Lvivstreet. Shota Rustaveli, 7</span></li>
                         <li className={ css.footer_item }><a className={ css.footer__text } href="mailto:office@ecosolution.com">office@ecosolution.com</a></li>
                         <li className={ css.footer_item }><span className={ css.footer__text }>ecosolution &copy; 2023</span></li>

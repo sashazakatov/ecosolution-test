@@ -30,6 +30,16 @@
     text-align: center
 }
 
+.footer__list {
+    display: flex;
+}
+
+@media screen and (min-width: 768px) {
+    .footer__list {
+        display: flex;
+    }
+}
+
 .footer_item:not(:last-child) {
     margin-bottom: 16px;
 }
