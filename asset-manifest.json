@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ecosolution-test/static/css/main.7991b5c0.css",
-    "main.js": "/ecosolution-test/static/js/main.361afee7.js",
+    "main.css": "/ecosolution-test/static/css/main.5fbb195f.css",
+    "main.js": "/ecosolution-test/static/js/main.b02142ea.js",
     "static/media/FiraSans-Light.woff2": "/ecosolution-test/static/media/FiraSans-Light.b678a9289fa25477222f.woff2",
     "static/media/FiraSans-Regular.woff2": "/ecosolution-test/static/media/FiraSans-Regular.b678a9289fa25477222f.woff2",
     "static/media/FiraSans-Regular.woff": "/ecosolution-test/static/media/FiraSans-Regular.9882832df631b9bb24d1.woff",
@@ -12,11 +12,11 @@
     "static/media/Oswald-Regular.woff": "/ecosolution-test/static/media/Oswald-Regular.0850a602c7ea734e69c5.woff",
     "static/media/sprite.svg": "/ecosolution-test/static/media/sprite.7366c0baefaec214d4c489760b797e2d.svg",
     "index.html": "/ecosolution-test/index.html",
-    "main.7991b5c0.css.map": "/ecosolution-test/static/css/main.7991b5c0.css.map",
-    "main.361afee7.js.map": "/ecosolution-test/static/js/main.361afee7.js.map"
+    "main.5fbb195f.css.map": "/ecosolution-test/static/css/main.5fbb195f.css.map",
+    "main.b02142ea.js.map": "/ecosolution-test/static/js/main.b02142ea.js.map"
   },
   "entrypoints": [
-    "static/css/main.7991b5c0.css",
-    "static/js/main.361afee7.js"
+    "static/css/main.5fbb195f.css",
+    "static/js/main.b02142ea.js"
   ]
 }
