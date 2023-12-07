@@ -1,6 +1,7 @@
 .hero {
     margin-top: 146px;
 }
+
 .hero__title {
     color: var(--first-company-color);
     font-family: Oswald;
@@ -10,19 +11,18 @@
     line-height: 36px;
     text-transform: uppercase;
 }
+
 .hero__text {
     color: var(--first-company-color);
-    text-align: justify;
     font-family: Fira Sans;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     letter-spacing: -0.64px;
-    margin-top: 24px;
 }
 
-.header__learn_more {
+.learn_more__link{
     display: inline-flex;
     height: 39px;
     padding: 4px 4px 4px 16px;
@@ -51,4 +51,51 @@
     height: 32px;
     padding: 8px;
     background-color: var(--secondary-company-color);
+}
+
+@media screen and (max-width: 767px) {
+    .hero__text {
+        text-align: justify;
+    }
+    .hero__div {
+        margin-top: 24px;
+    }
+    .header__learn_more {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .hero__fff {
+        display: flex;
+        justify-content: space-between;
+    }
+    .hero__title {
+        display: block;
+        width: 301px;
+        height: 144px;
+        font-size: 48px;
+        line-height: 48px;
+    }
+    .learn_more__link {
+        margin-top: 43px;
+    }
+    .hero__div {
+        width: 342px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .hero__title {
+        font-size: 64px;
+        line-height: 64px;
+        width: 485px;
+        height: 128px;
+    }
+    .learn_more__link {
+        margin-top: 43px;
+    }
+    .hero__div {
+        margin-top: 20px;
+    }
 }
